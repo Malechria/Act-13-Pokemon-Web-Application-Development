@@ -1,4 +1,4 @@
-# Pokémon Search App ⚡️
+# Pokémon Search App 
 
 ## Description
 This is a web application built with **Vue.js** that allows users to search for any Pokémon by name. 
