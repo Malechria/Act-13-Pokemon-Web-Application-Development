@@ -1,38 +1,23 @@
-# Act-13
+# Pokémon Search App ⚡️
 
-This template should help get you started developing with Vue 3 in Vite.
+## Description
+This is a web application built with **Vue.js** that allows users to search for any Pokémon by name. 
 
-## Recommended IDE Setup
+The app consumes the [PokeAPI](https://pokeapi.co/) using **Axios** to fetch and display the data on the screen.
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Key Features
+* **Dynamic Search:** A single text input field to enter the Pokémon's name.
+* **Visual & Audio Info:** If the Pokémon is found, the app displays its name, official artwork, and a mini audio player with its cry.
+* **Error Handling:** If the Pokémon is not found or the name is misspelled, the interface displays a user-friendly error message.
 
-## Recommended Browser Setup
+## Technologies Used
+* Vue.js 3 (Vite)
+* Axios
+* HTML5 / CSS3 (Custom styles)
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+## How to run the project locally
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+1. Clone this repository to your local machine.
+2. Open your terminal in the project folder and install the dependencies:
+   ```bash
+   npm install
